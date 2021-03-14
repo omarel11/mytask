@@ -11,7 +11,8 @@ body {
 html,
 body,
 #root,
-.App {
+.App
+.fullHeight {
     min-height: 100%;
 }
 *, ::before, ::after {

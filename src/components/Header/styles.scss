@@ -23,5 +23,29 @@
                 width: 100%;
             }
         }
+        .calltoaction {
+            position: absolute;
+            top:50%; right: 80px;
+            -webkit-transform:  translateY(-50%);
+            -moz-transform:  translateY(-50%);
+            transform:  translateY(-50%);
+
+            ul,li {
+                margin: 0;
+                padding: 0;
+            
+                } 
+            li{
+                list-style-type: none;
+
+                a{
+                    font-size: 1.8rem;
+                    line-height: 1;
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+        }
     }
 }
