@@ -6,7 +6,7 @@ import Footer from './../components/Footer';
 const Homepagelayout =props =>{
  return(
  <div className="fullHeight">
-     <Header />
+     <Header  {...props}/>
          {props.children}
          <Footer />
      </div>

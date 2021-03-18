@@ -29,6 +29,8 @@
             -webkit-transform:  translateY(-50%);
             -moz-transform:  translateY(-50%);
             transform:  translateY(-50%);
+            color: rgb(255, 255, 255);
+            
 
             ul,li {
                 margin: 0;
@@ -36,7 +38,13 @@
             
                 } 
             li{
+                display: inline-block;
                 list-style-type: none;
+                margin-right: 15px;
+                
+                &:last-child {
+                    margin-right: 0;
+                }
 
                 a{
                     font-size: 1.8rem;
