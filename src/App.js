@@ -11,6 +11,7 @@ import Header from './components/Header';
 import Homepage from './pages/Homepage';
 import Registration from './pages/Registration';
 import Login from './pages/Login';
+import Recovery from './pages/Recovery';
 import './default.scss';
 
 const initialState = {
@@ -77,6 +78,11 @@ authListener=null;
             <Login />
           </Mainlayout>
 
+        )} />
+        <Route path="/recovery" render={()=>(
+          <Mainlayout>
+            <Recovery />
+          </Mainlayout>
         )} />
       </Switch>
     </div>
